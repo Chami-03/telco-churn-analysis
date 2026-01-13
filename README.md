@@ -1,8 +1,11 @@
 Telco Customer Churn Analysis 📊
+
 Project Overview
+
 This project focuses on analyzing customer attrition (churn) for a telecommunications company. By leveraging Power BI, I transformed raw customer data into an interactive dashboard to identify key drivers of churn. The goal is to provide actionable insights that help the management team reduce churn rates, improve customer loyalty, and maximize Customer Lifetime Value (CLTV).
 
 🚀 Key Insights
+
 Total Customers: 7,043
 
 Overall Churn Rate: 26.54% (1,869 customers)
@@ -12,6 +15,7 @@ Major Churn Drivers: Month-to-month contracts and Fiber Optic internet users sho
 Revenue Impact: Total revenue stands at $16.06M, but churned customers represent a substantial loss in potential recurring revenue.
 
 🛠️ Tech Stack & Tools
+
 Data Visualization: Power BI Desktop
 
 Data Transformation: Power Query
@@ -21,6 +25,7 @@ Analytics: DAX (Data Analysis Expressions)
 Data Source: CSV (Telco Customer Dataset)
 
 📑 Data Cleaning & Modeling
+
 Before building the visuals, the data underwent a rigorous cleaning process:
 
 Data Profiling: Identified missing values in Total Charges and handled them appropriately.
@@ -32,6 +37,7 @@ Tenure Grouping: Created a conditional column to group customers into "Less than
 Star Schema: Developed a streamlined data model to ensure efficient filtering and high performance of the dashboard.
 
 📈 Dashboard Features
+
 The interactive dashboard includes:
 
 Executive Summary: High-level KPIs showing Total Customers, Churn Rate, and Revenue.
@@ -43,6 +49,7 @@ Payment & Internet Trends: Analysis of churn rates based on payment methods (Ele
 Demographic Insights: Understanding churn behavior across different tenure groups and monthly charge brackets.
 
 💡 Business Recommendations
+
 Based on the analysis, I proposed the following strategies:
 
 Contract Incentives: Offer discounts or value-added services to transition "Month-to-Month" customers into long-term contracts.
